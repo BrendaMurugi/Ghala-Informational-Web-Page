@@ -1,0 +1,356 @@
+.about{
+    height: 430px;
+    width: 750px;
+    border: 2px solid #098648;
+    background-color: #098648;
+    border-radius: 40px;
+    position: relative;
+    top: 400px;
+    left: 20%;
+}
+.about_gmm{
+    padding-left: 8%;
+}
+.gmm{
+    height: 430px;
+    width: 375px;
+    border: 2px solid #098648;
+    border-radius: 40px;
+    /* background-color: aliceblue; */
+    position: relative;
+    bottom: 239px;
+    left: 50%;
+}
+.gmm img{
+    height: 400px;
+    width: 250px;
+    position: relative;
+    top: 20px;
+}
+.about h2{
+    color: #fff;
+    margin-left: 40px;
+    position: relative;
+    top: 40px;
+    font-family: sans-serif;
+}
+.about p{
+    font-size: small;
+    text-align: left;
+    margin-left: 20px;
+    top: 45px;
+}
+button{
+    position: relative;
+    top: 130px;
+    left: 100px;
+    height: 45px;
+    width: 180px;
+    border: none;
+    font-size: 20px;
+    font-weight: bolder;
+    border-radius: 20px;
+    color: #224E23;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 80px;
+}
+.image1{
+    height: 300px;
+    width: 300px;
+    border: 2px solid #098648;
+    position: relative;
+    right: 160px;
+    border-radius: 20px;
+
+}
+.image2{
+    height: 300px;
+    width: 300px;
+    border: 2px solid #098648;
+    border-radius: 20px;
+    position: relative;
+    right: 70px;
+
+}
+.image3{
+    height: 300px;
+    width: 300px;
+    border: 2px solid #098648;
+    position: relative;
+    left: 20px;
+    border-radius: 20px;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #224E23;
+    position: relative;
+}
+
+.image1 h1{
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+.image1 p{
+    color: #000;
+    position: relative;
+    top: 20px;
+}
+.image2 h1{
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    white-space: nowrap;
+}
+.image2 p{
+    color: #000;
+    position: relative;
+    top: 20px;
+}
+.image3 h1{
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+.image3 p{
+    color: #000;
+    position: relative;
+    top: 20px;
+}
+.image1 img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    right: 60px;
+    top: 0px;
+}
+.image2 img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    right: 60px;
+    top: 0px;
+}
+.image3 img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    right: 60px;
+    top: 0px;
+}
+h4{
+    color: #224E23;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+video{
+    position: absolute;
+    transform: rotate(90deg);
+    border-radius: 10px;
+    z-index: 4;
+    visibility: visible;
+    position: relative;
+    left: 170px;
+    bottom: 140px;
+}
+.about_gmm h6{
+    margin-left: 7%;
+    position: relative;
+    top: 50px;
+    color: #224E23;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+@media (min-width: 768px) and (max-width: 1024px){
+    /* body {
+        background-color: blue;
+    } */
+    .about{
+    height: 400px;
+    width: 660px;
+    border: 2px solid #098648;
+    background-color: #098648;
+    border-radius: 40px;
+    position: relative;
+    top: 500px;
+    left: 10%;
+}
+/* .about_gmm{
+    padding-left: 8%;
+} */
+.gmm{
+    height: 400px;
+    width: 325px;
+    border: 2px solid #fcfcfc;
+    border-radius: 40px;
+    /* background-color: aliceblue; */
+    position: relative;
+    bottom: 239px;
+    left: 50.5%;
+    bottom: 51%;
+}
+.gmm img{
+    height: 300px;
+    width: 200px;
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.about h2{
+    color: #fff;
+    margin-left: 20px;
+    position: relative;
+    top: 40px;
+    font-size: 100%;
+    font-family: sans-serif;
+}
+.about p{
+    font-size: 70%;
+    text-align: left;
+    margin-left: 20px;
+    top: 45px;
+}
+button{
+    position: relative;
+    top: 130px;
+    left: 85px;
+    height: 45px;
+    width: 150px;
+    border: none;
+    font-size: 15px;
+    font-weight: bolder;
+    border-radius: 20px;
+    color: #224E23;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 80px;
+}
+.image1{
+    height: 300px;
+    width: 300px;
+    border: 2px solid #098648;
+    position: relative;
+    right: 160px;
+    border-radius: 20px;
+
+}
+.image2{
+    height: 300px;
+    width: 300px;
+    border: 2px solid #098648;
+    border-radius: 20px;
+    position: relative;
+    right: 70px;
+
+}
+.image3{
+    height: 300px;
+    width: 300px;
+    border: 2px solid #098648;
+    position: relative;
+    left: 20px;
+    border-radius: 20px;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #224E23;
+    position: relative;
+}
+
+.image1 h1{
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+.image1 p{
+    color: #000;
+    position: relative;
+    top: 20px;
+}
+.image2 h1{
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+    white-space: nowrap;
+}
+.image2 p{
+    color: #000;
+    position: relative;
+    top: 20px;
+}
+.image3 h1{
+    font-size: 20px;
+    position: relative;
+    top: 20px;
+}
+.image3 p{
+    color: #000;
+    position: relative;
+    top: 20px;
+}
+.image1 img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    right: 60px;
+    top: 0px;
+}
+.image2 img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    right: 60px;
+    top: 0px;
+}
+.image3 img{
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+    position: relative;
+    right: 60px;
+    top: 0px;
+}
+h4{
+    color: #224E23;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+}
+video{
+    position: absolute;
+    transform: rotate(90deg);
+    border-radius: 10px;
+    z-index: 4;
+    visibility: visible;
+    position: relative;
+    left: 170px;
+    bottom: 140px;
+}
+.about_gmm h6{
+    margin-left: 7%;
+    position: relative;
+    top: 50px;
+    color: #224E23;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+}
