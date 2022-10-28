@@ -1,14 +1,15 @@
 import React from "react";
 import {FaLinkedin, FaTwitter, FaInstagram} from 'react-icons/fa'
 import '/home/student/GhalaFinalWebpage/Ghala-Website/src/Contact.css'
+import '/home/student/GhalaFinalWebpage/Ghala-Website/src/Responsive.css'
 
 function Contact(){
     return(
         <div className="contact">
-         <div class="social">
-			<a href="#" target="_blank"><i class="fab fa-linkedin"><FaLinkedin></FaLinkedin></i></a>
-			<a href="#" target="_blank"><i class="fab fa-twitter"><FaTwitter></FaTwitter></i></a>
-			<a href="#" target="_blank"><i class="fab fa-instagram"><FaInstagram></FaInstagram></i></a>
+         <div className="social">
+			<a href="#" target="_blank"><i className="fab fa-linkedin"><FaLinkedin></FaLinkedin></i></a>
+			<a href="#" target="_blank"><i className="fab fa-twitter"><FaTwitter></FaTwitter></i></a>
+			<a href="#" target="_blank"><i className="fab fa-instagram"><FaInstagram></FaInstagram></i></a>
 		 </div>        
          <p className="end">CopyRight By Ghala | 2022</p>
          <div className="ours">

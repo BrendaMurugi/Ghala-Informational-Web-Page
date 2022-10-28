@@ -5,6 +5,7 @@ import image2 from '/home/student/GhalaFinalWebpage/Ghala-Website/src/pictures/l
 import image3 from '/home/student/GhalaFinalWebpage/Ghala-Website/src/pictures/logo-white.png'
 import video from '/home/student/GhalaFinalWebpage/Ghala-Website/src/Videos/gmm video.mp4'
 import '/home/student/GhalaFinalWebpage/Ghala-Website/src/About.css'
+// import '/home/student/GhalaFinalWebpage/Ghala-Website/src/Responsive.css'
 
 function About() {
     return (
@@ -37,7 +38,7 @@ function About() {
                     </div>
                 </div>
                 <h6>How it Works</h6>
-                <video src={video} height='800' typeof="video/mp4" controls></video>
+                <video src={video} height='700' typeof="video/mp4" controls></video>
             </div>
         </div>
     )

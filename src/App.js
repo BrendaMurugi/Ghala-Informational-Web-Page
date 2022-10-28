@@ -1,4 +1,6 @@
 import './App.css';
+// import '/home/student/GhalaFinalWebpage/Ghala-Website/src/Responsive.css'
+import {BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from './home';
 import About from './About'
 import Team from './Team'
@@ -8,21 +10,33 @@ import logo from '/home/student/GhalaFinalWebpage/Ghala-Website/src/pictures/log
 function App() {
   return (
     <div className="app" >
-      <header>
-        <nav>
+      <Router>
+
+      <Switch>
+          <Route path='/' component={Home}/>
+          <Route path='/about' component={About}/>
+          <Route path='/team' component={Team}/>
+          <Route path='/contact' component={Contact}/>
+               
+        </Switch>
+        
+      <nav>
           <ul>
-            <a href='home.js'>Home</a>
-            <a href='About.js'>About</a>
-            <a href='Team.js'>Team</a>
-            <a href='Contact.js'>Contact Us</a>
+           <Link to='/'>Home</Link>
+           <Link to='/about'>About</Link>
+           <Link to='/team'>Team</Link>
+           <Link to='/contact'>Contact Us</Link>
           </ul>
           <img src={logo} alt='our_logo'></img>
         </nav>
-      </header>
-      <Home />
+
+      </Router>
+      
+        
       <About />
       <Team />
       <Contact />
+      
     </div>
   );
 }
