@@ -182,13 +182,13 @@ video {
     visibility: visible;
     position: relative;
     right: 5%;
-    bottom: 140px;
+    bottom: 40px;
 }
 
 .about_gmm h6 {
     margin-left: 7%;
     position: relative;
-    top: 50px;
+    top: 10px;
     color: #224E23;
     font-size: 40px;
     font-family: Georgia, 'Times New Roman', Times, serif;
