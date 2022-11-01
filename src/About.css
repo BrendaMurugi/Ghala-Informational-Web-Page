@@ -176,12 +176,12 @@ h4 {
 
 video {
     position: absolute;
-    transform: rotate(90deg);
+    transform: rotate(360deg);
     border-radius: 10px;
     z-index: 4;
     visibility: visible;
     position: relative;
-    left: 170px;
+    right: 5%;
     bottom: 140px;
 }
 

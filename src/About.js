@@ -15,7 +15,7 @@ function About() {
                 <h2>Moisture Testing Made Easy</h2>
                 <p>With Grain Moisture Detector, grain farmers, aggregators, <br></br> commodity traders, feed producers and warehouse <br></br>operators can measure the moisture content in their <br></br>grains with ease. <br></br> <br></br> <br></br>
                     Knowing whether your grains are well dried helps you <br></br>reduce post-harvest losses and aflatoxins in your grains.</p>
-                <a href="#About.js"><button>Demo</button></a>
+                <a href="#vid"><button>Demo</button></a>
                 <div className="gmm">
                     <img src={device} alt='our_device'></img>
                 </div>
@@ -40,7 +40,7 @@ function About() {
                     </div>
                 </div>
                 <h6>How it Works</h6>
-                <video src={video} height='700' typeof="video/mp4" controls></video>
+                <video id="vid" src={video} height='500' typeof="video/mp4" controls></video>
             </div>
         </div>
     )
