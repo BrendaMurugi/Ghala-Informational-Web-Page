@@ -1,20 +1,22 @@
-.team_template{
-    height: 20vh;
-    width: 100%;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
-      url("/src/pictures/IMG-20220902-WA0043.jpg") center/cover ;
-    position: relative;
-    background-attachment: fixed;
-    position: relative;
-    top: 1840px;
+.team_template {
+  height: 20vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+    url("/src/pictures/IMG-20220902-WA0043.jpg") center/cover;
+  position: relative;
+  background-attachment: fixed;
+  position: relative;
+  top: 1840px;
 }
-.team_template h4{
+
+.team_template h4 {
   position: relative;
   top: 20px;
   color: #fff;
   font-size: 50px;
 }
-.team_template h1{
+
+.team_template h1 {
   position: relative;
   bottom: 40px;
   text-align: center;
@@ -22,6 +24,7 @@
   font-size: 20px;
   font-weight: lighter;
 }
+
 .container {
   margin-left: 11%;
   position: relative;
@@ -40,7 +43,8 @@
   top: 390px;
   left: 0px;
 }
-.box{
+
+.box {
   position: relative;
   bottom: 0px;
   left: 140px;
@@ -156,25 +160,28 @@
 
 .container .box:hover .content h1 {
   transform: translateY(0px);
-} 
-  @media (min-width: 768px) and (max-width: 1024px) {
-    .team_template{
-      height: 20vh;
-      width: 100%;
-      background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
-        url("/src/pictures/IMG-20220902-WA0043.jpg") center/cover ;
-      position: relative;
-      background-attachment: fixed;
-      position: relative;
-      top: 1840px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .team_template {
+    height: 20vh;
+    width: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
+      url("/src/pictures/IMG-20220902-WA0043.jpg") center/cover;
+    position: relative;
+    background-attachment: fixed;
+    position: relative;
+    top: 1840px;
   }
-  .team_template h4{
+
+  .team_template h4 {
     position: relative;
     top: 20px;
     color: #fff;
     font-size: 50px;
   }
-  .team_template h1{
+
+  .team_template h1 {
     position: relative;
     bottom: 40px;
     text-align: center;
@@ -182,6 +189,7 @@
     font-size: 20px;
     font-weight: lighter;
   }
+
   .container {
     margin-left: 11%;
     position: relative;
@@ -194,35 +202,36 @@
     transform-style: preserve-3d;
     perspective: 500px;
   }
-  
+
   .box2 {
     position: relative;
     top: 390px;
     left: 0px;
   }
-  .box{
+
+  .box {
     position: relative;
     bottom: 0px;
     left: 140px;
   }
-  
+
   .box1 {
     position: relative;
     left: 80px;
   }
-  
+
   .box3 {
     position: relative;
     right: 140px;
     top: 0px;
   }
-  
+
   .box4 {
     position: relative;
     top: 70px;
     right: 280px;
   }
-  
+
   .container .box {
     position: relative;
     width: 200px;
@@ -236,13 +245,13 @@
     margin-right: 15px;
     margin-top: 45px;
   }
-  
+
   .container .box:hover {
     transform: rotateY(0deg) scale(1.25);
     z-index: 1;
     box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
   }
-  
+
   .container .box .imgBx {
     position: absolute;
     top: 0;
@@ -250,7 +259,7 @@
     width: 100%;
     height: 100%;
   }
-  
+
   .container .box .imgBx:before {
     content: '';
     position: absolute;
@@ -264,11 +273,11 @@
     transition: 0.5s;
     mix-blend-mode: multiply;
   }
-  
+
   .container .box:hover .imgBx:before {
     opacity: 1;
   }
-  
+
   .container .box .imgBx img {
     position: absolute;
     top: 20px;
@@ -277,7 +286,7 @@
     height: 90%;
     object-fit: cover;
   }
-  
+
   .container .box .content {
     position: absolute;
     top: 0;
@@ -290,7 +299,7 @@
     align-items: flex-end;
     box-sizing: border-box;
   }
-  
+
   .container .box .content h2 {
     color: #fff;
     transition: 0.5s;
@@ -300,11 +309,11 @@
     transform: translateY(200px);
     transition-delay: 0.3s;
   }
-  
+
   .container .box:hover .content h2 {
     transform: translateY(0px);
   }
-  
+
   .container .box .content h1 {
     color: #fff;
     transition: 0.5s;
@@ -313,11 +322,10 @@
     transform: translateY(200px);
     transition-delay: 0.4s;
   }
-  
+
   .container .box:hover .content h1 {
     transform: translateY(0px);
   }
-  }
-  @media only screen and (max-width: 320px) {
-    
-  }
+}
+
+@media only screen and (max-width: 320px) {}

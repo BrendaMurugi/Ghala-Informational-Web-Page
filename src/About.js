@@ -9,8 +9,9 @@ import '/home/student/GhalaFinalWebpage/Ghala-Website/src/About.css'
 
 function About() {
     return (
-        <div className="about_gmm">
+        <div className="about_gmm" id="id-about">
             <div className="about">
+        
                 <h2>Moisture Testing Made Easy</h2>
                 <p>With Grain Moisture Detector, grain farmers, aggregators, <br></br> commodity traders, feed producers and warehouse <br></br>operators can measure the moisture content in their <br></br>grains with ease. <br></br> <br></br> <br></br>
                     Knowing whether your grains are well dried helps you <br></br>reduce post-harvest losses and aflatoxins in your grains.</p>
@@ -18,6 +19,7 @@ function About() {
                 <div className="gmm">
                     <img src={device} alt='our_device'></img>
                 </div>
+        
                 <h4>Take a Moisture Reading in 3 Simple Steps</h4>
                 <div className="images">
                     <div className="image1">

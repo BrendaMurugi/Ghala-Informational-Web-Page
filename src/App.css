@@ -1,4 +1,4 @@
-nav ul a {
+nav ul a{
   display: inline;
   text-decoration: none;
   position: relative;
@@ -10,8 +10,7 @@ nav ul a {
   z-index: 1100;
   color: #fff;
 }
-
-nav {
+nav{
   position: fixed;
   overflow: hidden;
   top: 0;
@@ -20,62 +19,13 @@ nav {
   background-color: #098648;
   width: 100%;
 }
-
-img {
+img{
   height: 70px;
   width: 70px;
   position: relative;
   margin-left: 60px;
   bottom: 48px;
-
 }
-
-ul a {
+ul a{
   z-index: 1100;
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  /* body {
-    background-color: blue;
-  } */
-
-  nav ul a {
-    display: inline;
-    text-decoration: none;
-    position: relative;
-    padding-left: 20px;
-    left: 70%;
-    top: 20px;
-    font-size: 18px;
-    overflow: hidden;
-    z-index: 1100;
-    color: #fff;
-  }
-
-  nav {
-    position: fixed;
-    overflow: hidden;
-    top: 0;
-    height: 80px;
-    z-index: 1100;
-    background-color: #098648;
-    width: 100%;
-  }
-
-  img {
-    height: 70px;
-    width: 70px;
-    position: relative;
-    margin-left: 45px;
-    bottom: 48px;
-
-  }
-
-  ul {
-    margin-right: 10%;
-  }
-
-  ul a {
-    z-index: 1100;
-  }
 }
